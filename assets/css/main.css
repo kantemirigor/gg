@@ -248,6 +248,10 @@ header {
   }
   .flag-lang img {
     height: 18.6px;
+    margin-top: 0.15rem !important;
+  }
+  .social img {
+    height: 20px;
   }
 }
 @media screen and (max-width: 410px) {
@@ -255,6 +259,8 @@ header {
     font-size: 0.8rem !important;
   }
   .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 1.1rem !important;
   }
 }
