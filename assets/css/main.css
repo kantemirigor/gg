@@ -428,7 +428,7 @@ header {
   .navbar-brand img {
     display: none;
   }
-  x-big {
+  logo-big {
     max-height: 225px;
   }
 }
@@ -498,6 +498,9 @@ header {
   background: rgba(0, 0, 0, 0.5);
   padding: 40px 30px;
   padding-bottom: 60px;
+}
+.carousel a {
+  color: #fff;
 }
 .carousel-indicators li {
   width: 15px;
