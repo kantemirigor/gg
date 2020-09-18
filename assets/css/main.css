@@ -218,7 +218,7 @@ header {
   .header-nav {
     padding-left: 0px;
   }
-  h2 {
+  .header-product h2 {
     position: absolute;
     top: 50% !important;
     z-index: 999 !important;
@@ -228,6 +228,31 @@ header {
   }
   .info-product {
     min-height: 90px !important;
+  }
+  .start-footer {
+    background: url(../img/advan-m.png) center center !important;
+    background-size: cover !important;
+    height: auto !important;
+    padding: 30px 30px !important;
+    text-align: justify !important;
+  }
+  .start-footer img {
+    max-height: 40px;
+  }
+  .start-footer h1 {
+    color: #fff;
+  }
+  /* .start-footer col {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  } */
+  .about-m {
+    background: url(../img/about-m.png) center center !important;
+    background-size: cover !important;
+    height: auto !important;
+    text-align: justify !important;
+    padding: 15px 15px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 980px) {
@@ -519,7 +544,7 @@ header {
   height: auto;
 }
 .slide-2 {
-  padding: 15px 100px;
+  padding: 15px 50px;
 }
 .header-product {
   position: relative;
@@ -592,7 +617,7 @@ header {
   font-size: 1.25rem;
 }
 .footer-span {
-  height: 30px;
+  min-height: 30px;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 1.125rem;
