@@ -254,6 +254,9 @@ header {
     text-align: justify !important;
     padding: 15px 15px !important;
   }
+  .bg-1 {
+    background-attachment: scroll;
+  }
 }
 @media (min-width: 768px) and (max-width: 980px) {
   .header-info a,
@@ -424,6 +427,9 @@ header {
   }
   .navbar-brand img {
     display: none;
+  }
+  x-big {
+    max-height: 225px;
   }
 }
 @media screen and (max-width: 450px) {
