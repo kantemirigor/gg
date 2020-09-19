@@ -203,8 +203,8 @@
                       Более десяти лет наша компания занимается поставками
                       фанеры, мебельными деталями и фланцами. Мы входим в число
                       лидеров отрасли.
-                      <a href="#сoll-car" data-toggle="collapse">Подробнее</a>
-                      <div id="сoll-car" class="collapse">
+                      <a class="d-xs-block d-md-none coll-button" href="#сoll-car" data-toggle="collapse">Подробнее</a>
+                      <div id="сoll-car" class="">
                       Продажа фанеры – наша основная специализация, именно
                       поэтому этот материал представлен у нас очень широко. Если
                       раньше вы испытывали трудности с поиском нужной продукции
@@ -222,8 +222,8 @@
                       фанеры, мебельными деталями и фланцами. Мы входим в число
                       лидеров отрасли.
                       <br>
-                      <a href="#сoll-car" data-toggle="collapse">Подробнее</a>
-                      <div id="сoll-car" class="collapse">
+                      <a class="d-xs-block d-md-none coll-button" href="#сoll-car" data-toggle="collapse">Подробнее</a>
+                      <div id="сoll-car" class="">
                       Продажа фанеры – наша основная специализация, именно
                       поэтому этот материал представлен у нас очень широко. Если
                       раньше вы испытывали трудности с поиском нужной продукции
@@ -241,8 +241,8 @@
                       фанеры, мебельными деталями и фланцами. Мы входим в число
                       лидеров отрасли.
                       <br>
-                      <a href="#сoll-car" data-toggle="collapse">Подробнее</a>
-                      <div id="сoll-car" class="collapse">
+                      <a class="d-xs-block d-md-none coll-button" href="#сoll-car" data-toggle="collapse">Подробнее</a>
+                      <div id="сoll-car" class="">
                       Продажа фанеры – наша основная специализация, именно
                       поэтому этот материал представлен у нас очень широко. Если
                       раньше вы испытывали трудности с поиском нужной продукции
@@ -260,8 +260,8 @@
                       фанеры, мебельными деталями и фланцами. Мы входим в число
                       лидеров отрасли.
                       <br>
-                      <a href="#сoll-car" data-toggle="collapse">Подробнее</a>
-                      <div id="сoll-car" class="collapse">
+                      <a class="d-xs-block d-md-none coll-button" href="#сoll-car" data-toggle="collapse">Подробнее</a>
+                      <div id="сoll-car" class="">
                       Продажа фанеры – наша основная специализация, именно
                       поэтому этот материал представлен у нас очень широко. Если
                       раньше вы испытывали трудности с поиском нужной продукции
@@ -279,8 +279,8 @@
                       фанеры, мебельными деталями и фланцами. Мы входим в число
                       лидеров отрасли.
                       <br>
-                      <a href="#сoll-car" data-toggle="collapse">Подробнее</a>
-                      <div id="сoll-car" class="collapse">
+                      <a class="d-xs-block d-md-none coll-button" href="#сoll-car" data-toggle="collapse">Подробнее</a>
+                      <div id="сoll-car" class="">
                       Продажа фанеры – наша основная специализация, именно
                       поэтому этот материал представлен у нас очень широко. Если
                       раньше вы испытывали трудности с поиском нужной продукции
@@ -376,7 +376,7 @@
                 <h2 class="d-xs-block d-md-none">Паркетная фанера</h2>
                 <img
                   class="img-fluid"
-                  src="assets/img/product_image.png"
+                  src="assets/img/product_image.jpg"
                   alt=""
                 />
               </div>
@@ -410,7 +410,7 @@
                 <h2 class="d-xs-block d-md-none">Паркетная фанера</h2>
                 <img
                   class="img-fluid"
-                  src="assets/img/product_image.png"
+                  src="assets/img/product_image.jpg"
                   alt=""
                 />
               </div>
@@ -445,7 +445,7 @@
                 <h2 class="d-xs-block d-md-none">Паркетная фанера</h2>
                 <img
                   class="img-fluid"
-                  src="assets/img/product_image.png"
+                  src="assets/img/product_image.jpg"
                   alt=""
                 />
               </div>
@@ -1030,6 +1030,10 @@
       >
     </div>
     <!-- Optional JavaScript -->
+    <script>
+      if( $("#coll-but").is(":visible") )
+          $("#coll-car").addClass("collapse");
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
