@@ -853,3 +853,20 @@ main {
   font-size: 100px;
   text-align: center;
 }
+/* bx-slider */
+/** VARIABLES
+===================================*/
+/** RESET AND LAYOUT
+===================================*/
+.swiper-container {
+  height: 300px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
