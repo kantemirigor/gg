@@ -108,87 +108,107 @@ header {
   border-bottom: solid 5px #5ea631;
 }
 @media (min-width: 1200px) and (max-width: 1448px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 1.125rem !important;
   }
   h1 {
     font-size: 1.8rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.55rem !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1353px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 1.0625rem !important;
   }
   h1 {
     font-size: 1.7rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.5rem !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1305px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 1rem !important;
   }
   h1 {
     font-size: 1.65rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.47rem !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1257px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 0.95rem !important;
   }
   h1 {
     font-size: 1.6rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.4rem !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1220px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 0.9rem !important;
   }
   h1 {
     font-size: 1.55rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.37rem !important;
   }
 }
@@ -217,16 +237,18 @@ header {
   }
 }
 @media screen and (max-width: 767px) {
+  .carousel-item {
+    padding: 0px 0px !important;
+  }
   .header-nav {
     padding-left: 0px;
   }
   .header-product h2 {
     position: absolute;
-    top: 50% !important;
+    top: 30% !important;
     z-index: 999 !important;
     width: 100% !important;
     text-align: center !important;
-    font-size: 2.7rem;
   }
   .info-product {
     min-height: 90px !important;
@@ -261,53 +283,65 @@ header {
   }
 }
 @media (min-width: 768px) and (max-width: 980px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 1.1rem !important;
   }
   h1 {
     font-size: 1.8rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.55rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 900px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 1rem !important;
   }
   h1 {
     font-size: 1.65rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.47rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 850px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
   .start-footer,
   .contacts-left,
   .facts li,
-  .about-company p {
+  .about-company p,
+  .footer-span {
     font-size: 0.9rem !important;
   }
   h1 {
     font-size: 1.55rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.37rem !important;
   }
 }
@@ -326,10 +360,15 @@ header {
   }
 }
 @media (min-width: 576px) and (max-width: 740px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 1.15rem;
   }
   .navbar-brand {
@@ -341,10 +380,15 @@ header {
   }
 }
 @media (min-width: 576px) and (max-width: 700px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 1rem;
   }
   .navbar-brand {
@@ -356,10 +400,15 @@ header {
   }
 }
 @media (min-width: 576px) and (max-width: 620px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 0.88rem;
   }
   .navbar-brand {
@@ -374,10 +423,15 @@ header {
   }
 }
 @media screen and (max-width: 575px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 1.15rem;
   }
   .navbar-brand {
@@ -389,16 +443,23 @@ header {
   h1 {
     font-size: 1.8rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 2.3rem !important;
   }
 }
 @media screen and (max-width: 550px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
-    font-size: 1.05rem;
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
+    font-size: 1.05rem !important;
   }
   .navbar-brand {
     font-size: 1.325rem !important;
@@ -413,15 +474,22 @@ header {
   h1 {
     font-size: 1.65rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 2rem !important;
   }
 }
 @media screen and (max-width: 520px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 1rem !important;
   }
   .navbar-brand {
@@ -435,10 +503,15 @@ header {
   }
 }
 @media screen and (max-width: 450px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 0.9rem !important;
   }
   .navbar-brand {
@@ -457,15 +530,22 @@ header {
   h1 {
     font-size: 1.55rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.6rem !important;
   }
 }
 @media screen and (max-width: 410px) {
+  .start,
   .header-info a,
   .header-nav a,
   .info-product p,
-  .start-footer {
+  .start-footer,
+  .contacts-left,
+  .facts li,
+  .about-company p,
+  .footer-span {
     font-size: 0.8rem !important;
   }
   .navbar-brand {
@@ -476,13 +556,15 @@ header {
   h1 {
     font-size: 1.5rem !important;
   }
-  h2 {
+  h2,
+  .button-order,
+  .about-company p span {
     font-size: 1.2rem !important;
   }
 }
 
 .start {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 .logo-start {
   padding: 40px 20px;
@@ -514,12 +596,15 @@ header {
   opacity: 0.5;
   background-color: transparent;
 }
+.carousel-item {
+  padding: 60px 0px;
+}
 .carousel-indicators .active {
   background-color: #dcdcdc;
   opacity: 1;
 }
 .button-order {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   width: 100%;
   margin-left: auto;
   justify-content: center;
@@ -530,7 +615,6 @@ header {
   border: solid 2px #fff;
   border-radius: 25px;
   width: 186px;
-  height: 51px;
   background-color: #5a9f30;
   padding-top: 5px;
 }
@@ -564,10 +648,17 @@ header {
   border: solid 1px #fff;
   border-bottom: solid 3px #5ea631;
 }
-.info-product {
+/* .info-product {
   min-height: 120px;
   padding: 10px;
   background-color: #ffffff;
+} */
+.info-product h2 {
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 .info-product p {
   text-transform: lowercase;
@@ -616,6 +707,9 @@ header {
   padding-top: 0.5px;
   font-size: 1.25rem;
 }
+.about-company p span {
+  font-size: 1.7rem;
+}
 .about-company-logo {
   margin: auto;
 }
@@ -628,10 +722,11 @@ header {
   font-size: 1.25rem;
 }
 .footer-span {
+  padding: 8px 10px;
   min-height: 30px;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 .footer-span a {
@@ -756,6 +851,13 @@ main {
 }
 .product {
   position: relative;
+}
+.product .button-order {
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 .products_p h3 {
   color: #5b5b5b;
