@@ -1090,7 +1090,7 @@ p {
   width: 50px;
 }
 .product-opt a {
-  background-image: url(/assets/img/btn-opt.png);
+  background-image: url(//assets/img/btn-opt.png);
   height: 40px;
   width: 200px;
   display: inline-block;
