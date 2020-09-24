@@ -940,7 +940,7 @@ header {
 }
 /*PRODUCTS*/
 .bg-products {
-  background-image: url(//assets/img/bg-pr.jpg);
+  background-image: url(/assets/img/bg-pr.jpg);
 }
 .bg-products .header-nav {
   padding-left: 0px;
