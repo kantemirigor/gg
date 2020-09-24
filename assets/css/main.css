@@ -584,7 +584,7 @@ header {
     top: 55% !important;
   }
   .nav-pr a {
-    padding: 0 10px !important;
+    padding: 0 8px !important;
   }
 }
 @media screen and (max-width: 450px) {
