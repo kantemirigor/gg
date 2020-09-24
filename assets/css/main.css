@@ -115,7 +115,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1.125rem !important;
   }
   h1 {
@@ -136,7 +139,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1.0625rem !important;
   }
   h1 {
@@ -157,7 +163,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1rem !important;
   }
   h1 {
@@ -178,7 +187,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.95rem !important;
   }
   h1 {
@@ -199,7 +211,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.9rem !important;
   }
   h1 {
@@ -219,6 +234,9 @@ header {
   .map-right {
     border-radius: 0 0 0 0 !important;
   }
+  .button-obr {
+    top: 69% !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1125px) {
   .contacts-left {
@@ -235,7 +253,29 @@ header {
     font-size: 0.9rem !important;
   }
 }
+@media screen and (max-width: 1199px) {
+  .product {
+    overflow: auto !important;
+    height: auto !important;
+  }
+  .description p {
+    margin: 10px 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .button-obr {
+    top: 72% !important;
+  }
+}
 @media screen and (max-width: 767px) {
+  .button-obr {
+    left: 60% !important;
+    top: 60% !important;
+    width: 26% !important;
+  }
+  .product-opt {
+    top: 8% !important;
+  }
   .carousel-item {
     padding: 0px 0px !important;
   }
@@ -290,7 +330,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1.1rem !important;
   }
   h1 {
@@ -311,7 +354,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1rem !important;
   }
   h1 {
@@ -332,7 +378,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.9rem !important;
   }
   h1 {
@@ -367,8 +416,11 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
-    font-size: 1.15rem;
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
+    font-size: 1.15rem !important;
   }
   .navbar-brand {
     color: #5ea631 !important;
@@ -387,7 +439,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1rem;
   }
   .navbar-brand {
@@ -407,7 +462,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.88rem;
   }
   .navbar-brand {
@@ -430,8 +488,11 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
-    font-size: 1.15rem;
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
+    font-size: 1.15rem !important;
   }
   .navbar-brand {
     font-size: 1.4rem !important;
@@ -457,7 +518,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1.05rem !important;
   }
   .navbar-brand {
@@ -488,7 +552,11 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  .product-opt a,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 1rem !important;
   }
   .navbar-brand {
@@ -500,6 +568,24 @@ header {
   .logo-big {
     max-height: 225px;
   }
+  .button-obr {
+    top: 58% !important;
+    left: 65% !important;
+  }
+  .product-opt a {
+    width: 130px !important;
+    height: 30px !important;
+    line-height: 35px !important;
+  }
+}
+@media screen and (max-width: 485px) {
+  .button-obr {
+    width: 30% !important;
+    top: 55% !important;
+  }
+  .nav-pr a {
+    padding: 0 12px;
+  }
 }
 @media screen and (max-width: 450px) {
   .start,
@@ -510,7 +596,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.9rem !important;
   }
   .navbar-brand {
@@ -534,6 +623,14 @@ header {
   .about-company p span {
     font-size: 1.6rem !important;
   }
+  .button-obr {
+    top: 54% !important;
+  }
+  .product-opt a {
+    height: 25px !important;
+    top: 11% !important;
+    line-height: 32px !important;
+  }
 }
 @media screen and (max-width: 410px) {
   .start,
@@ -544,7 +641,10 @@ header {
   .contacts-left,
   .facts li,
   .about-company p,
-  .footer-span {
+  .footer-span,
+  main p,
+  main p table,
+  .product-opt a {
     font-size: 0.8rem !important;
   }
   .navbar-brand {
@@ -559,6 +659,9 @@ header {
   .button-order,
   .about-company p span {
     font-size: 1.2rem !important;
+  }
+  .button-obr {
+    top: 54% !important;
   }
 }
 
@@ -854,14 +957,8 @@ header {
   color: #5ea731;
 }
 .product {
-  position: relative;
-}
-.product .button-order {
-  top: 65%;
-  left: 50%;
-  margin-right: -50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
+  height: 526px;
+  overflow: hidden;
 }
 .products_p h3 {
   color: #5b5b5b;
@@ -871,13 +968,21 @@ header {
   color: #666666;
 }
 .description {
+  height: 85%;
+  overflow-y: auto;
 }
 .description h4 {
   font-size: 3rem;
 }
 .description p {
-  font-size: 1.25rem;
   font-weight: normal;
+}
+main p {
+  font-size: 1.25rem;
+  margin: 10px 0px;
+}
+main table {
+  font-size: 1.25rem;
 }
 /* slider */
 .slider {
@@ -979,10 +1084,48 @@ h4 {
 p {
   margin: 10px;
 }
-
+.product-opt {
+  position: absolute;
+  top: 30%;
+  width: 50px;
+}
+.product-opt a {
+  background-image: url(/assets/img/btn-opt.png);
+  height: 40px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  line-height: 40px;
+}
+.button-obr {
+  position: absolute;
+  top: 70%;
+  left: 68%;
+  width: 20%;
+}
+.button-obr .button-order {
+  background-color: #5a9f30;
+  border: solid 2px #fff;
+  text-align: center;
+  font-size: 1.7rem;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
 #carousel-example-generic {
   margin: 20px auto;
   width: 400px;
+}
+#carousel-custom {
+  position: relative;
 }
 #carousel-custom .carousel-indicators {
   height: 50px;
@@ -992,6 +1135,7 @@ p {
   text-align: left;
   white-space: nowrap;
   width: 100%;
+  justify-content: left;
 }
 .carousel-indicators img {
   width: 50px;
@@ -1008,6 +1152,7 @@ p {
 #carousel-custom .carousel-indicators li img {
   display: block;
   opacity: 0.5;
+  min-height: 48px;
 }
 #carousel-custom .carousel-indicators li.active img {
   opacity: 1;
