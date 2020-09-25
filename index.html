@@ -97,7 +97,7 @@
             class="collapse navbar-collapse col-xl-3"
             id="navbarTogglerDemo02"
           >
-            <div class="col mt-2 text-left text-xl-center pl-0 social">
+            <div class="col text-left text-xl-center pl-0 social">
               <a class="mr-1" href=""
                 ><img
                   class="img-fluid mr-1"
@@ -566,8 +566,8 @@
     <div class="container-fluid start-footer d-xs-block d-md-none advantages">
       <h1 class="text-right">Преймущества</h1>
       <div class="row">
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img class="mb-3 img-fluid" src="assets/img/tree_m.png" alt="" />
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/img/tree_m.png" alt="" />
         </div>
         <p class="col-9">
           Лесные ресурсы России позволяют значительно снизить себестоимость
@@ -575,8 +575,8 @@
         </p>
       </div>
       <div class="row">
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img class="mb-3 img-fluid" src="assets/img/factory_m.png" alt="" />
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/img/factory_m.png" alt="" />
         </div>
         <p class="col-9">
           Контроль качества и постоянное повышение квалификации наших
@@ -584,8 +584,8 @@
         </p>
       </div>
       <div class="row">
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img class="mb-3 img-fluid" src="assets/img/truck_m.png" alt="" />
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/img/truck_m.png" alt="" />
         </div>
         <p class="col-9">
           Мы используем только самых надежных перевозчиков – партнеров, чтобы
@@ -594,8 +594,8 @@
         </p>
       </div>
       <div class="row">
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img class="mb-3 img-fluid" src="assets/img/lamp_icon_m.png" alt="" />
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/img/lamp_icon_m.png" alt="" />
         </div>
         <p class="col-9">
           Покупая нашу продукцию Вы не только снижаете затраты вашего
@@ -603,12 +603,8 @@
         </p>
       </div>
       <div class="row">
-        <div class="col-3 d-flex align-items-center justify-content-center">
-          <img
-            class="mb-3 img-fluid"
-            src="assets/img/happy client_m.png"
-            alt=""
-          />
+        <div class="col-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/img/happy client_m.png" alt="" />
         </div>
         <p class="col-9">
           Наш продукт – это законченное решение, которое направлено на
@@ -1110,9 +1106,10 @@
     <script>
       if ($(window).width() < 768) {
         $(".carousel-inner").readmore({
-          maxHeight: 40,
-          moreLink: '<a href="#">Развернуть текст</a>',
-          lessLink: '<a href="#">Свернуть текст</a>',
+          maxHeight: 50,
+          moreLink:
+            '<a href="#" style="margin-left:10px;">Развернуть текст</a>',
+          lessLink: '<a href="#" style="margin-left:10px;" >Свернуть текст</a>',
         });
       }
     </script>
